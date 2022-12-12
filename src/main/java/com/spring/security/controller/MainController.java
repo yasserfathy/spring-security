@@ -18,7 +18,7 @@ public class MainController {
     }
     @GetMapping("mange")
     public String mange(){
-        return "managment/index";
+        return "management/index";
     }
     @GetMapping("admin")
     public String admin(){
